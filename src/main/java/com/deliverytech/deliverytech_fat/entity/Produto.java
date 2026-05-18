@@ -15,6 +15,7 @@ public class Produto {
     private double preco;
     private String categoria;
     private boolean disponivel;
+    private Integer validade;
 
     @ManyToOne
     @JoinColumn(name = "restaurante_id")
